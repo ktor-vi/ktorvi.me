@@ -60,7 +60,7 @@ export default function Home() {
           <div className="my-3 lg:flex gap-10">
             <div className="flex-1 justify-between text-center shadow-lg p-10 rounded-corners">
               <h3 className=" dark:text-white text-lg font-medium pt-8 pb-2 mb-3 ">Blinest Blindtest Bot</h3>
-              <Image className="my-2 mb-7" src={python} alt="python" />
+              <Image className="mx-auto my-2 lg:mb-8 lg:w-80" src={python} alt="python" />
 
               <a href="https://github.com/ktor-vi/bbb" className="dark:text-white py-2 underline">An piloted browser bot to be the best at blindtests on Blinest.com</a>
               <h4 className="dark:text-white font-bold my-2">Made using :</h4>
@@ -71,7 +71,7 @@ export default function Home() {
             </div>
             <div className="dark:text-white flex-1 text-center shadow-lg p-10 rounded-corners">
               <h3 className="dark:text-white text-lg font-medium pt-8 pb-2 mb-3 ">Back My Books</h3>
-              <Image className="my-2 rounded-corners" src={pg} alt="pg" />
+              <Image className="mx-auto my-2 mb-3 lg:w-80" src={pg} alt="pg" />
 
               <a href="https://github.com/LVannebenne/back-my-books" className="dark:text-white py-2 underline">A project I worked on at the becode bootcamp  on Library management</a>
               <h4 className="font-bold my-2 dark:text-white ">Made Using :</h4>
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
             <div className="flex-1 text-center shadow-lg p-10 rounded-corners">
               <h3 className="text-lg font-medium pt-8 pb-2 mb-3 dark:text-white  ">Germaine Collard</h3>
-              <Image className="my-2 mb-3" src={gc} alt="gc" />
+              <Image className="mx-auto my-2 mb-3 lg:w-80" src={gc} alt="gc" />
 
               <a href="https://germainecollard.be" className="dark:text-white py-2 underline">During my internship at Mwesto Labs, Liège I worked on this shoe shop website  Mainly on the login and sign in parts</a>
               <h4 className="dark:text-white font-bold my-2">I used :</h4>
@@ -103,7 +103,7 @@ export default function Home() {
           <div className="mt-3 lg:flex gap-10">
             <div className="flex-1 text-center shadow-lg p-10 rounded-corners">
               <h3 className="text-lg font-medium pt-8 pb-2 mb-3 dark:text-white ">CS 50 - C course from Harvard</h3>
-              <Image className="my-2 mb-20" src={cs50} alt="cs50" />
+              <Image className=" mx-auto sm:h-45 sm:w-45 lg:w-80 my-2 mb-20" src={cs50} alt="cs50" />
               <a href="https://github.com/ktor-vi/bbb" className="dark:text-white y-2 underline">I attended the CS50 Computer Science Course from Harvard in 2023  completed the C programming assignments</a>
               <h4 className="font-bold my-2 dark:text-white ">I learned :</h4>
               <ul className="dark:text-white ">
@@ -114,7 +114,7 @@ export default function Home() {
             </div>
             <div className="flex-1 text-center shadow-lg p-10 rounded-corners">
               <h3 className="text-lg font-medium pt-8 pb-2 mb-3 dark:text-white ">Becode Web Bootcamp</h3>
-              <Image className=" h-45 w-45" src={becode} alt="becode" />
+              <Image className=" mx-auto sm:h-45 sm:w-45" src={becode} alt="becode" />
               <a href="https://github.com/ktor-vi/bbb" className="dark:text-white py-2 underline">A Web developer bootcamp in Liège, Belgium I attended in 2019</a>
               <h4 className="font-bold my-2 dark:text-white  ">I learned :</h4>
               <ul className="dark:text-white ">
@@ -127,10 +127,10 @@ export default function Home() {
                 <li>GraphQL</li>
               </ul>
             </div>
-            <div className="flex-1 text-center shadow-lg p-10 rounded-corners">
-              <h3 className="text-lg font-medium pt-8 pb-2 mb-3 dark:text-white ">Cisco CCNA Training</h3>
+            <div className="flex-1 justify-items-center text-center shadow-lg p-10 rounded-corners">
+              <h3 className="text-lg font-medium pt-8 pb-2 mb-3  dark:text-white ">Cisco CCNA Training</h3>
 
-              <Image className="w-30 my-2 mb-7" src={cisco} alt="cisco" />
+              <Image className="mx-auto w-30 my-2 mb-7 lg:w-80" src={cisco} alt="cisco" />
               <a href="https://cisco.com" className=" dark:text-white py-2 underline">I attended a training on Cisco Networking in 2019</a>
               <h4 className="font-bold my-2 dark:text-white " >I  learned :</h4>
               <ul className="dark:text-white  ">
