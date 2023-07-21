@@ -53,7 +53,7 @@ export default function Home() {
         </section>
         <section className="py-5">
           <div>
-            <h3 className="dark:text-white  text-3xl py-1">Projects I've worked on</h3>
+            <h3 className="dark:text-white  text-3xl py-1">Projects I&apos;ve worked on</h3>
             <p className="dark:text-white  text-md py-2 text-gray-800">As a self-taught developer I have built several projects to showcase my competences,
               in various languages and fulfillng different objetives.</p>
           </div>
