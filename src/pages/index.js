@@ -40,7 +40,7 @@ export default function Home() {
           <div className="text-center p-10 ">
             <h2 className="text-5xl py-2 text-teal-700 md:text-6xl">Victor Philippe</h2>
             <h3 className="dark:text-white  text-2xl md:text-3xl leading-8  py-5 text-gray-800 font-mono">Junior Developer</h3>
-            <p className="dark:text-white  text-md md:text-xl py-5 text-gray-800 max-width-lg">Junior developer seeking opportunities to grow and integrate a team, mainly self taught but motivated to fulfill your needs.</p>
+            <p className="dark:text-white  text-md md:text-xl py-5 text-gray-800 max-width-lg">Junior developer seeking opportunities to grow and integrate a team, very but motivated to fulfill your needs.</p>
           </div>
           <div className=" dark:text-white text-5xl flex justify-center gap-16 py-3 text-gray-800">
             <a href="https://www.instagram.com/ktor.vi/"> <AiFillInstagram /> </a>
@@ -54,8 +54,8 @@ export default function Home() {
         <section className="py-5">
           <div>
             <h3 className="dark:text-white  text-3xl py-1">Projects I&apos;ve worked on</h3>
-            <p className="dark:text-white  text-md py-2 text-gray-800">As a self-taught developer I have built several projects to showcase my competences,
-              in various languages and fulfillng different objetives.</p>
+            <p className="dark:text-white  text-md py-2 text-gray-800">I have built several projects to showcase my competences,
+              in various languages and fulfillng different objectives.</p>
           </div>
           <div className="my-3 lg:flex gap-10">
             <div className="flex-1 justify-between text-center shadow-lg p-10 rounded-corners">
