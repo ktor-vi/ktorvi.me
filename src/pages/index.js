@@ -1,9 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillInstagram, AiFillMail } from "react-icons/ai"
-import { Inter } from "next/font/google";
-import standing from "../../public/standing.png";
+import { AiFillLinkedin, AiFillInstagram, AiFillMail } from "react-icons/ai";
 import avatar from "../../public/avatar.png";
 import becode from "../../public/becode.png";
 import cisco from "../../public/cisco-ccna.png";
@@ -48,7 +46,7 @@ export default function Home() {
             <a href="mailto:me@ktorvi.me" ><AiFillMail /></a>
           </div>
           <div className="mx-auto my-10 relative rounded-r-full">
-            <Image className="mx-auto rounded-full w-60 h-60 md:h-96 md:w-96" src={avatar} alt="Victor Philippe standing" />
+            <Image className="mx-auto rounded-full w-60 h-60 md:h-96 md:w-96" src={avatar} alt="Victor Philippe avatar" />
           </div>
         </section>
         <section className="py-5">
@@ -98,13 +96,13 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Educational background</h3>
-            <p className="text-md py-2 text-gray-800 dark:text-white ">I am mainly self taught, but I had the chances to attend various trainings and educational opportunities.</p>
+            <p className="text-md py-2 text-gray-800 dark:text-white ">I am mainly self taught, but I had the chance to attend various training and educational opportunities.</p>
           </div>
           <div className="mt-3 lg:flex gap-10">
             <div className="flex-1 text-center shadow-lg p-10 rounded-corners">
               <h3 className="text-lg font-medium pt-8 pb-2 mb-3 dark:text-white ">CS 50 - C course from Harvard</h3>
               <Image className=" mx-auto sm:h-45 sm:w-45 lg:w-80 my-2 mb-20" src={cs50} alt="cs50" />
-              <a href="https://https://pll.harvard.edu/course/cs50-introduction-computer-science" className="dark:text-white y-2 underline">I attended the CS50 Computer Science Course from Harvard in 2023  completed the C programming assignments</a>
+              <a href="https://https://pll.harvard.edu/course/cs50-introduction-computer-science" className="dark:text-white y-2 underline">I attended the CS50 Computer Science Course from Harvard in 2023  and completed the C programming assignments</a>
               <h4 className="font-bold my-2 dark:text-white ">I learned :</h4>
               <ul className="dark:text-white ">
                 <li>C programming basics</li>
@@ -115,7 +113,7 @@ export default function Home() {
             <div className="flex-1 text-center shadow-lg p-10 rounded-corners">
               <h3 className="text-lg font-medium pt-8 pb-2 mb-3 dark:text-white ">Becode Web Bootcamp</h3>
               <Image className=" mx-auto sm:h-45 sm:w-45" src={becode} alt="becode" />
-              <a href="https://becode.org" className="dark:text-white py-2 underline">A Web developer bootcamp in Liège, Belgium I attended in 2019</a>
+              <a href="https://becode.org" className="dark:text-white py-2 underline">A Web developer bootcamp in Liège, Belgium that I attended in 2019</a>
               <h4 className="font-bold my-2 dark:text-white  ">I learned :</h4>
               <ul className="dark:text-white ">
                 <li>NodeJS</li>
