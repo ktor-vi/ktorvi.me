@@ -1,15 +1,15 @@
-import Image from "next/image";
 import Head from "next/head";
+import Image from "next/image";
+import { useState } from 'react';
+import { AiFillInstagram, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillInstagram, AiFillMail } from "react-icons/ai";
+import python from "../../public/Python.png";
 import avatar from "../../public/avatar.png";
 import becode from "../../public/becode.png";
 import cisco from "../../public/cisco-ccna.png";
 import cs50 from "../../public/cs50.png";
-import pg from "../../public/postgresql.png";
-import python from "../../public/Python.png";
 import gc from "../../public/gc.png";
-import { useState } from 'react';
+import pg from "../../public/postgresql.png";
 
 
 export default function Home() {
@@ -38,7 +38,7 @@ export default function Home() {
           <div className="text-center p-10 ">
             <h2 className="text-5xl py-2 text-teal-700 md:text-6xl">Victor Philippe</h2>
             <h3 className="dark:text-white  text-2xl md:text-3xl leading-8  py-5 text-gray-800 font-mono">Junior Developer</h3>
-            <p className="dark:text-white  text-md md:text-xl py-5 text-gray-800 max-width-lg">Junior developer seeking opportunities to grow and integrate a team, very but motivated to fulfill your needs.</p>
+            <p className="dark:text-white  text-md md:text-xl py-5 text-gray-800 max-width-lg">Junior developer seeking opportunities to integrate a team and grow, highly motivated to fulfill your needs.</p>
           </div>
           <div className=" dark:text-white text-5xl flex justify-center gap-16 py-3 text-gray-800">
             <a href="https://www.instagram.com/ktor.vi/"> <AiFillInstagram /> </a>
@@ -52,8 +52,8 @@ export default function Home() {
         <section className="py-5">
           <div>
             <h3 className="dark:text-white  text-3xl py-1">Projects I&apos;ve worked on</h3>
-            <p className="dark:text-white  text-md py-2 text-gray-800">I have built several projects to showcase my competences,
-              in various languages and fulfillng different objectives.</p>
+            <p className="dark:text-white  text-md py-2 text-gray-800">I have built numerous projects fulfilling different objectives,
+              in various languages.</p>
           </div>
           <div className="my-3 lg:flex gap-10">
             <div className="flex-1 justify-between text-center shadow-lg p-10 rounded-corners">
@@ -71,7 +71,7 @@ export default function Home() {
               <h3 className="dark:text-white text-lg font-medium pt-8 pb-2 mb-3 ">Back My Books</h3>
               <Image className="mx-auto my-2 mb-3 lg:w-80" src={pg} alt="pg" />
 
-              <a href="https://github.com/LVannebenne/back-my-books" className="dark:text-white py-2 underline">A project I worked on at the becode bootcamp  on Library management</a>
+              <a href="https://github.com/LVannebenne/back-my-books" className="dark:text-white py-2 underline">A project I worked on at the becode bootcamp on library management</a>
               <h4 className="font-bold my-2 dark:text-white ">Made Using :</h4>
               <ul className="dark:text-white ">
                 <li>NodeJS</li>
@@ -83,7 +83,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 mb-3 dark:text-white  ">Germaine Collard</h3>
               <Image className="mx-auto my-2 mb-3 lg:w-80" src={gc} alt="gc" />
 
-              <a href="https://germainecollard.be" className="dark:text-white py-2 underline">During my internship at Mwesto Labs, Liège I worked on this shoe shop website  Mainly on the login and sign in parts</a>
+              <a href="https://germainecollard.be" className="dark:text-white py-2 underline">During my internship at Mwesto Labs, Liège I worked on this shoe shop website, mainly on the login and sign in parts</a>
               <h4 className="dark:text-white font-bold my-2">I used :</h4>
               <ul className="dark:text-white ">
                 <li>Vue</li>
@@ -96,7 +96,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Educational background</h3>
-            <p className="text-md py-2 text-gray-800 dark:text-white ">I am mainly self taught, but I had the chance to attend various training and educational opportunities.</p>
+            <p className="text-md py-2 text-gray-800 dark:text-white ">I am mostly self taught, and I took the opportunity to attend various training and educational opportunities.</p>
           </div>
           <div className="mt-3 lg:flex gap-10">
             <div className="flex-1 text-center shadow-lg p-10 rounded-corners">
