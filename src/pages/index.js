@@ -153,31 +153,34 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className="rounded-corners flex-1 justify-items-center p-10 text-center shadow-lg">
-            <h3 className="mb-3 pb-2 pt-8 text-lg font-medium  dark:text-white ">
-              Cisco CCNA Training
-            </h3>
-
-            <Image
-              className="w-30 mx-auto my-2 mb-7 lg:w-80"
-              src={dn}
-              alt="School 19"
-            />
-            <a
-              href="https://www.campus19.be"
-              className=" py-2 underline dark:text-white"
-            >
-              I am currently a student at Campus19, Brussels
-            </a>
-            <h4 className="my-2 font-bold dark:text-white ">I am learning :</h4>
-            <ul className="dark:text-white  ">
-              <li>C programming</li>
-              <li>C++ programming</li>
-              <li>Web Development</li>
-              <li>Linux sysadmin</li>
-            </ul>
-          </div>
           <div>
+            <div className="rounded-corners flex-1 justify-items-center p-10 text-center shadow-lg">
+              <h3 className="mb-3 pb-2 pt-8 text-lg font-medium  dark:text-white ">
+                Student at School 19
+              </h3>
+
+              <Image
+                className="w-30 mx-auto my-2 mb-7 lg:w-80"
+                src={dn}
+                alt="School 19"
+              />
+              <a
+                href="https://www.campus19.be"
+                className=" py-2 underline dark:text-white"
+              >
+                I am currently a student at Campus19, Brussels, 19 is a member
+                of the 42 Network.
+              </a>
+              <h4 className="my-2 font-bold dark:text-white ">
+                I am learning :
+              </h4>
+              <ul className="dark:text-white  ">
+                <li>C programming</li>
+                <li>C++ programming</li>
+                <li>Web Development</li>
+                <li>Linux sysadmin</li>
+              </ul>
+            </div>
             <h3 className="py-1 text-3xl dark:text-white ">
               Educational background
             </h3>
