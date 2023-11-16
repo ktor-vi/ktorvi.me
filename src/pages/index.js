@@ -61,7 +61,7 @@ export default function Home() {
               <h3 className=" dark:text-white text-lg font-medium pt-8 pb-2 mb-3 ">Blinest Blindtest Bot</h3>
               <Image className="mx-auto my-2 lg:mb-8 lg:w-80" src={python} alt="python" />
 
-              <a href="https://github.com/ktor-vi/bbb" className="dark:text-white py-2 underline">An piloted browser bot to be the best at blindtests on Blinest.com</a>
+              <a href="https://github.com/ktor-vi/bbb" className="dark:text-white py-2 underline">A piloted browser bot to be the best at blindtests on Blinest.com</a>
               <h4 className="dark:text-white font-bold my-2">Made using :</h4>
               <ul className="dark:text-white ">
                 <li>Python</li>
@@ -107,7 +107,7 @@ export default function Home() {
                 </h3>
 
                 <Image
-                  className="w-30 mx-auto my-2 mb-7 lg:w-80"
+                  className="w-15 mx-auto  lg:w-80"
                   src={dn}
                   alt="School 19"
                 />
@@ -115,7 +115,7 @@ export default function Home() {
                   href="https://www.campus19.be"
                   className=" py-2 underline dark:text-white"
                 >
-                  I am currently a student at Campus19, Brussels, 19 is a member
+                  I am currently a student at Campus19 - Brussels, 19 is a member
                   of the 42 Network.
                 </a>
                 <h4 className="my-2 font-bold dark:text-white ">
