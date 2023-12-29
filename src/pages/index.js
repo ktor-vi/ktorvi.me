@@ -59,10 +59,10 @@ export default function Home() {
           <div className="my-3 lg:flex gap-10">
             <div className="flex-1 justify-between text-center shadow-lg p-10 rounded-corners">
               <h3 className=" dark:text-white text-lg font-medium pt-8 pb-2 mb-3 ">Blinest Blindtest Bot</h3>
-              <Image className="mx-auto my-2 lg:mb-8 lg:w-80" src={python} alt="python" />
+              <Image className="mx-auto my-2 pb-7 lg:mb-8 lg:w-80" src={python} alt="python" />
 
               <a href="https://github.com/ktor-vi/bbb" className="dark:text-white py-2 underline">A piloted browser bot to be the best at blindtests on Blinest.com</a>
-              <h4 className="dark:text-white font-bold my-2">Made using :</h4>
+              <h4 className="dark:text-white font-bold mt-5">Made using :</h4>
               <ul className="dark:text-white ">
                 <li>Python</li>
                 <li>Selenium</li>
@@ -70,22 +70,22 @@ export default function Home() {
             </div>
             <div className="dark:text-white flex-1 text-center shadow-lg p-10 rounded-corners">
               <h3 className="dark:text-white text-lg font-medium pt-8 pb-2 mb-3 ">Back My Books</h3>
-              <Image className="mx-auto my-2 mb-3 lg:w-80" src={pg} alt="pg" />
+              <Image className="mx-auto my-2 mb-3 lg:w-80" src={dn} alt="pg" />
 
-              <a href="https://github.com/LVannebenne/back-my-books" className="dark:text-white py-2 underline">A project I worked on at the becode bootcamp on library management</a>
-              <h4 className="font-bold my-2 dark:text-white ">Made Using :</h4>
+              <a href="https://blog.ktorvi.me/" className="dark:text-white py-2 underline">Projects from 19 Coding School</a>
+              <h4 className="font-bold mt-11 dark:text-white ">Made Using :</h4>
               <ul className="dark:text-white ">
-                <li>NodeJS</li>
-                <li>PostgreSQL</li>
-                <li>GraphQL</li>
+              <li>The C programming language</li>
               </ul>
+              <br></br>
+              <a href="https://blog.ktorvi.me/" className="underline">You can read a bit more about them in my blog.</a>
             </div>
             <div className="flex-1 text-center shadow-lg p-10 rounded-corners">
               <h3 className="text-lg font-medium pt-8 pb-2 mb-3 dark:text-white  ">Germaine Collard</h3>
-              <Image className="mx-auto my-2 mb-3 lg:w-80" src={gc} alt="gc" />
+              <Image className="mx-auto my-2 mb-11 lg:w-80" src={gc} alt="gc" />
 
-              <a href="https://germainecollard.be" className="dark:text-white py-2 underline">During my internship at Mwesto Labs, Liège I worked on this shoe shop website, mainly on the login and sign in parts</a>
-              <h4 className="dark:text-white font-bold my-2">I used :</h4>
+              <a href="https://germainecollard.be" className="dark:text-white py-2 underline">During an internship,<br></br>I did front-end work on this shoe shop website</a>
+              <h4 className="dark:text-white font-bold my-1">I used :</h4>
               <ul className="dark:text-white ">
                 <li>Vue</li>
                 <li>Bootstrap</li>
@@ -107,18 +107,18 @@ export default function Home() {
                 </h3>
 
                 <Image
-                  className="w-15 mx-auto  lg:w-80"
+                  className="w-15 pb-4 mx-auto  lg:w-80"
                   src={dn}
                   alt="School 19"
                 />
                 <a
                   href="https://www.campus19.be"
-                  className=" py-2 underline dark:text-white"
+                  className=" py-3 underline dark:text-white"
                 >
                   I am currently a student at Campus19 - Brussels, 19 is a member
                   of the 42 Network.
                 </a>
-                <h4 className="my-2 font-bold dark:text-white ">
+                <h4 className="mt-8 font-bold dark:text-white ">
                   I am learning :
                 </h4>
                 <ul className="dark:text-white  ">
@@ -132,7 +132,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 mb-3 dark:text-white ">CS 50 - C course from Harvard</h3>
               <Image className=" mx-auto sm:h-45 sm:w-45 lg:w-80 my-2 mb-20" src={cs50} alt="cs50" />
               <a href="https://https://pll.harvard.edu/course/cs50-introduction-computer-science" className="dark:text-white y-2 underline">I attended the CS50 Computer Science Course from Harvard in 2023  and completed the C programming assignments</a>
-              <h4 className="font-bold my-2 dark:text-white ">I learned :</h4>
+              <h4 className="font-bold mt-2 dark:text-white ">I learned :</h4>
               <ul className="dark:text-white ">
                 <li>C programming basics</li>
                 <li>Pointers and File Management</li>
@@ -143,7 +143,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 mb-3 dark:text-white ">Becode Web Bootcamp</h3>
               <Image className=" mx-auto sm:h-45 sm:w-45" src={becode} alt="becode" />
               <a href="https://becode.org" className="dark:text-white py-2 underline">A Web developer bootcamp in Liège, Belgium that I attended in 2019</a>
-              <h4 className="font-bold my-2 dark:text-white  ">I learned :</h4>
+              <h4 className="font-bold mt-10 dark:text-white  ">I learned :</h4>
               <ul className="dark:text-white ">
                 <li>NodeJS</li>
                 <li>HTML + CSS</li>
