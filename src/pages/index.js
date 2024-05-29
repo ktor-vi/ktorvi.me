@@ -69,7 +69,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="dark:text-white flex-1 text-center shadow-lg p-10 rounded-corners">
-              <h3 className="dark:text-white text-lg font-medium pt-8 pb-2 mb-3 ">Back My Books</h3>
+              <h3 className="dark:text-white text-lg font-medium pt-8 pb-2 mb-3 ">Campus 19</h3>
               <Image className="mx-auto my-2 mb-3 lg:w-80" src={dn} alt="pg" />
 
               <a href="https://blog.ktorvi.me/" className="dark:text-white py-2 underline">Projects from 19 Coding School</a>
