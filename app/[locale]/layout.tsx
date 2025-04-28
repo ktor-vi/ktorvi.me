@@ -1,4 +1,3 @@
-import BaiDuAnalytics from "@/app/BaiDuAnalytics";
 import GoogleAdsense from "@/app/GoogleAdsense";
 import GoogleAnalytics from "@/app/GoogleAnalytics";
 import PlausibleAnalytics from "@/app/PlausibleAnalytics";
@@ -66,7 +65,7 @@ export default async function LocaleLayout({
       <head />
       <body
         className={cn(
-          "min-h-screen bg-background flex flex-col font-sans antialiased"
+          "min-h-screen bg-background flex flex-col font-mono antialiased"
         )}
       >
         <NextIntlClientProvider messages={messages}>
@@ -92,7 +91,6 @@ export default async function LocaleLayout({
         ) : (
           <>
             <Analytics />
-            <BaiDuAnalytics />
             <GoogleAnalytics />
             <GoogleAdsense />
             <PlausibleAnalytics />

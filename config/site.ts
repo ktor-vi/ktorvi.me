@@ -1,27 +1,26 @@
 import { SiteConfig } from "@/types/siteConfig";
 
-export const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://nextforge.dev";
-
-export const SOURCE_CODE_URL = "https://github.com/weijunext/nextjs-15-starter";
+export const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://ktorvi.me";
+export const SOURCE_CODE_URL = 'https://github.com/ktor-vi/ktorvi.me';
 
 const TWITTER_URL = 'https://x.com/weijunext'
 const BSKY_URL = 'https://bsky.app/profile/judewei.bsky.social'
-const EMAIL_URL = 'mailto:weijunext@gmail.com'
-const GITHUB_URL = 'https://github.com/weijunext'
+const EMAIL_URL = 'mailto:me@ktorvi.me'
+const GITHUB_URL = 'https://github.com/ktor-vi'
 
 export const siteConfig: SiteConfig = {
-  name: "Next Forge",
-  tagLine: 'Multilingual Next.js 15 Starter',
+  name: "Victor Philippe",
+  tagLine: 'Junior Developer',
   description:
-    "A multilingual Next.js 15 starter with built-in i18n support. Launch your global-ready web application with a clean, efficient, and SEO-friendly foundation.",
+    "Young and motivated developer, ready to take on new challenges and learn from experienced professionals.",
   url: BASE_URL,
   authors: [
     {
-      name: "weijunext",
-      url: "https://weijunext.com",
+      name: "ktorvi",
+      url: "https://ktorvi.me",
     }
   ],
-  creator: '@weijunext',
+  creator: '@ktorvi',
   socialLinks: {
     bluesky: BSKY_URL,
     twitter: TWITTER_URL,

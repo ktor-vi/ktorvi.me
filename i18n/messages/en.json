@@ -5,12 +5,12 @@
     "countdown": "Closing in {countdown} seconds"
   },
   "Header": {
-    "blogs": "Blogs",
-    "about": "About",
-    "sourceCode": "Source Code"
+    "blogs": "Projects",
+    "about": "About Me",
+    "sourceCode": "Curriculum"
   },
   "Footer": {
-    "Copyright": "Copyright © {year} Next Forge. All rights reserved.",
+    "Copyright": "Copyright © {year} Victor Philippe. All rights reserved.",
     "Newsletter": {
       "title": "Subscribe to our newsletter",
       "description": "Get the latest news and updates from Next Forge",
@@ -24,25 +24,22 @@
     }
   },
   "Home": {
-    "title": "Next Forge",
-    "tagLine": "Multilingual Next.js 15 Starter",
-    "description": "A multilingual Next.js 15 starter with built-in i18n support. Launch your global-ready web application with a clean, efficient, and SEO-friendly foundation.",
+    "title": "Victor Philippe",
+    "tagLine": "Junior Web developer, ready to join your team and thrive.",
+    "description": "Dynamic Junior Developer, currently pursuing a Computer Science training at Campus 19, with a prior background in web development. ",
     "whoIsUsing": "Who is Using This Starter"
   },
   "Blogs": {
-    "title": "Blog Posts",
-    "description": "A list of blog posts"
+    "title": "Projects",
+    "description": "A list of blog posts about my projects"
   },
   "About": {
     "title": "About",
     "description": "About the site"
   },
-  "TermsOfService": {
-    "title": "Terms of Service",
-    "description": "Terms of Service"
-  },
-  "PrivacyPolicy": {
-    "title": "Privacy Policy",
-    "description": "Privacy Policy"
+  "Curriculum": {
+    "title": "Curriculum",
+    "description": "Curriculum Vitae",
+    "downloadPdf": "Download"
   }
 }

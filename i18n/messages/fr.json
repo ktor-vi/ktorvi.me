@@ -1,0 +1,45 @@
+{
+  "LanguageDetection": {
+    "title": "Suggestion de langue",
+    "description": "Nous avons remarqué que la langue de votre navigateur diffère de celle du site. Vous pouvez changer de langue à tout moment 👉",
+    "countdown": "Fermeture dans {countdown} secondes"
+  },
+  "Header": {
+    "blogs": "Projets",
+    "about": "À propos de moi",
+    "sourceCode": "Curriculum"
+  },
+  "Footer": {
+    "Copyright": "Copyright © {year} Victor Philippe. Tous droits réservés.",
+    "Newsletter": {
+      "title": "Abonnez-vous à notre newsletter",
+      "description": "Recevez les dernières nouvelles et mises à jour de Next Forge",
+      "defaultErrorMessage": "Veuillez entrer une adresse e-mail valide",
+      "successMessage": "Inscription réussie",
+      "errorMessage": "Échec de l'inscription",
+      "errorMessage2": "Échec de l'inscription. Veuillez réessayer plus tard.",
+      "subscribe": "S'abonner",
+      "subscribing": "Abonnement en cours...",
+      "subscribed": "Inscription réussie ! Merci pour votre intérêt."
+    }
+  },
+  "Home": {
+    "title": "Victor Philippe",
+    "tagLine": "Développeur web junior, prêt a rejoindre votre équipe et montrer le meilleur de moi-même.",
+    "description": "Développeur junior dynamique, actuellement en formation en informatique à Campus 19, avec une expérience préalable en développement web.",
+    "whoIsUsing": "Qui utilise ce Starter"
+  },
+  "Blogs": {
+    "title": "Projets",
+    "description": "Une liste d'articles de blog sur mes projets"
+  },
+  "About": {
+    "title": "À propos",
+    "description": "À propos du site"
+  },
+  "Curriculum": {
+    "title": "Curriculum",
+    "description": "Curriculum Vitae",
+    "downloadPdf": "Télécharger"
+  }
+}

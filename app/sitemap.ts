@@ -13,8 +13,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '',
     '/blogs',
     '/about',
-    '/privacy-policy',
-    '/terms-of-service',
   ]
 
   // Generate multilingual pages

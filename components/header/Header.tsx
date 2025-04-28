@@ -20,7 +20,7 @@ const Header = () => {
               prefetch={false}
               className="flex items-center space-x-1 font-bold"
             >
-              <Image
+              <Image className="rounded-xl"
                 alt={siteConfig.name}
                 src="/logo.svg"
                 className="w-6 h-6"

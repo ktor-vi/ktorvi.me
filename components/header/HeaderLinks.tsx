@@ -13,9 +13,7 @@ export const headerLinks = [
   },
   {
     name: "sourceCode",
-    href: SOURCE_CODE_URL,
-    target: "_blank",
-    rel: "noopener noreferrer nofollow",
+    href: "/curriculum",
   },
 ];
 
