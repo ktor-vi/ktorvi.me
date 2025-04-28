@@ -20,10 +20,10 @@ const Header = () => {
               prefetch={false}
               className="flex items-center space-x-1 font-bold"
             >
-              <Image className="rounded-xl"
+              <Image 
                 alt={siteConfig.name}
                 src="/logo.svg"
-                className="w-6 h-6"
+                className="w-6 h-6 rounded-xl"
                 width={32}
                 height={32}
               />
@@ -37,13 +37,10 @@ const Header = () => {
           <HeaderLinks />
 
           <div className="flex items-center gap-x-2 md:gap-x-4 lg:gap-x-6 flex-1 justify-end">
-            {/* PC */}
             <div className="hidden md:flex items-center gap-x-4">
               <LocaleSwitcher />
               <ThemeToggle />
             </div>
-
-            {/* Mobile */}
             <MobileMenu />
           </div>
         </nav>

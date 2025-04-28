@@ -29,13 +29,19 @@ async function getMDXContent(locale: string) {
   }
 }
 
-type Params = {
+type Params = Promise<{
   locale: string;
+}>;
+
+type MetadataProps = {
+  params: Params;
 };
 
-export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: MetadataProps): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "Curriculum" });
+  const t = await getTranslations({ locale, namespace: "About" });
 
   return constructMetadata({
     page: "Curriculum",
@@ -47,7 +53,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 }
 
 export default async function AboutPage({ params }: { params: Params }) {
-  const { locale } = await params;
+  const { locale } = await params; 
   const t = await getTranslations({ locale, namespace: "Curriculum" });
   const content = await getMDXContent(locale);
 
@@ -63,7 +69,6 @@ export default async function AboutPage({ params }: { params: Params }) {
             download
           >
             {t("downloadPdf")}
-
           </Link>
         </Button>
       </div>
